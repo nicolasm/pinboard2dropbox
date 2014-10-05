@@ -1,8 +1,7 @@
 pinboard2dropbox
 ================
 
-* Backup your Pinboard.in bookmarks to Dropbox.
-* File is encrypted.
+Create an encrypted backup of your Pinboard.in bookmarks to Dropbox.
 
 ## How does it work?
 
@@ -13,12 +12,12 @@ pinboard2dropbox
 
 ## How to install?
 
-* Copy the backup_bookmarks.sh script to "~/Library/Scripts/Applications/Pinboard/".
+* Execute deploy.sh (copies script to "~/Library/Scripts/Applications/Pinboard/").
 * Get the common-scripts repository and execute deploy.sh.
 
 ## How to setup?
 
-* Add a pinboard.in entry with your api token to your .netrc in your home folder.
+* Add a pinboard.in entry with your api token (username:token) to your .netrc in your home folder.
 ```
 machine pinboard.in
         login username
@@ -27,9 +26,10 @@ machine pinboard.in
 * Create a .backup folder in your home.
 * Write your passphrase in a .passphrase.txt file inside that folder.
 * Cron the backup_bookmrks.sh script.
-* I use a Hazel rule that clean old backups.
+* I use a Hazel rule that cleans old backups.
 
 ## Requirements
 
 * Python
 * Dropbox
+* Pinboard.in account
