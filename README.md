@@ -14,7 +14,7 @@ pinboard2dropbox
 ## How to install?
 
 * Copy the backup_bookmarks.sh script to "~/Library/Scripts/Applications/Pinboard/".
-* Copy the openssl_encrypt.sh and get_netrc.py scripts to "~/Library/Scripts/Applications/".
+* Get the common-scripts repository and execute deploy.sh.
 
 ## How to setup?
 
