@@ -17,7 +17,8 @@ Create an encrypted backup of your Pinboard.in bookmarks to Dropbox.
 
 ## How to setup?
 
-* Add a pinboard.in entry with your api token (username:token) to your .netrc in your home folder.
+* [Get][0] your API token.
+* Add a pinboard.in entry with your API token (username:token) to your .netrc in your home folder.
 ```
 machine pinboard.in
         login username
@@ -33,3 +34,5 @@ machine pinboard.in
 * Python
 * Dropbox
 * Pinboard.in account
+
+[0]: https://pinboard.in/settings/password
