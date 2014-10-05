@@ -27,6 +27,7 @@ machine pinboard.in
 * Create a .backup folder in your home.
 * Write your passphrase in a .passphrase.txt file inside that folder.
 * Cron the backup_bookmrks.sh script.
+* I use a Hazel rule that clean old backups.
 
 ## Requirements
 
