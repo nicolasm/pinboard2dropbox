@@ -1,7 +1,8 @@
 pinboard2dropbox
 ================
 
-Create an encrypted backup of your Pinboard.in bookmarks to Dropbox.
+Create an encrypted backup of your Pinboard.in bookmarks to Dropbox
+or a raw backup (no encryption) to SpiderOak.
 
 ## How does it work?
 
