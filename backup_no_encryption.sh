@@ -6,6 +6,6 @@ NETRC=($(/Users/$USER/Library/Scripts/Applications/get_netrc.py "pinboard.in"))
 USERNAME=${NETRC[0]}
 TOKEN=${NETRC[1]}
 
-cd /Users/$USER/Library/
+curl "https://api.pinboard.in/v1/posts/all?format=json&auth_token=$USERNAME:$TOKEN" | python -mjson.tool > /tmp/${JSONFILE}
 
-curl "https://api.pinboard.in/v1/posts/all?format=json&auth_token=$USERNAME:$TOKEN" | python -mjson.tool > ~/"SpiderOak Hive"/Backups/Pinboard/${JSONFILE}
+mv /tmp/${JSONFILE} ~/"SpiderOak Hive"/Backups/Pinboard/
