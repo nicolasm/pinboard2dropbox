@@ -13,7 +13,7 @@ or a raw backup (no encryption) to SpiderOak.
 
 ## How to install?
 
-* Execute deploy.sh (copies script to "~/Library/Scripts/Applications/Pinboard/").
+* Execute deploy.sh (copies script to "~/Scripts/Applications/Pinboard/").
 * Get the common-scripts repository and execute deploy.sh.
 
 ## How to setup?
