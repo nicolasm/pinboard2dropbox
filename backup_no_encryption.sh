@@ -8,6 +8,6 @@ TOKEN=${NETRC[1]}
 
 curl "https://api.pinboard.in/v1/posts/all?format=json&auth_token=$USERNAME:$TOKEN" | python -mjson.tool > /tmp/${JSONFILE}
 
-mv /tmp/${JSONFILE} ~/Dropbox/Backups/Pinboard/
+mv /tmp/${JSONFILE} ~/Documents/Pinboard/
 
-ln -sf ~/Dropbox/Backups/Pinboard/${JSONFILE} ~/Dropbox/Backups/Pinboard/Pinboard.json
+ln -sf ~/Documents/Pinboard/${JSONFILE} ~/Documents/Pinboard/Pinboard.json
